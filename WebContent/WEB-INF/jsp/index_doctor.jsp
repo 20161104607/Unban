@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>人格障碍诊断</title>
+<title>登录主页</title>
 </head>
 <frameset rows="100,*" cols="*" scrolling="No" framespacing="0" frameborder="no" border="0">
  <frame src="statics/jsp/head.jsp" name="headmenu" id="mainFrame" title="mainFrame"><!-- 引用头部 -->

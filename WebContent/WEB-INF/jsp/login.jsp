@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>心理诊断登录界面</title>
+<title>社区档案</title>
 <link href="statics/css/style.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="statics/js/jquery2.js"></script>
 <script src="statics/js/cloud.js" type="text/javascript"></script>
@@ -16,12 +16,12 @@
   <div id="cloud1" class="cloud"></div>
   <div id="cloud2" class="cloud"></div>
 </div>
-<div class="logintop"> <span>欢迎登录心理诊断后台</span>
+<div class="logintop"> <span>欢迎登录城乡居民健康档案</span>
   <ul>
     <li><a href="#">返回首页</a></li>
   </ul>
 </div>
-<div class="loginbody"> <span class="systemlogo"></span>
+<div class="loginbody"> </br></br></br> </br></br></br>
   <div class="loginbox">
   <form action="login.do" method="post">
     <ul>
@@ -29,7 +29,7 @@
         <input name="username" type="text" class="loginuser" value="" required placeholder="用户名" onclick="JavaScript:this.value=''"/>
       </li>
       <li>
-        <input name="password" type="text" class="loginpwd" value="" required placeholder="密码" onclick="JavaScript:this.value=''"/>
+        <input name="password" type="password" class="loginpwd" value="" required placeholder="密码" onclick="JavaScript:this.value=''"/>
       </li>
       <li>
       	${message}
